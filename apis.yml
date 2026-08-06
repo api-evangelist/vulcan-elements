@@ -1,8 +1,19 @@
 aid: vulcan-elements
 name: Vulcan Elements
-description: 'Vulcan Elements is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'Vulcan Elements is a United States manufacturer of sintered permanent
+  neodymium-iron-boron (NdFeB) rare earth magnets, founded in 2023 and headquartered
+  in Research Triangle Park, North Carolina. The company produces high-performance
+  rare earth magnets domestically for defense and commercial applications — the components
+  that convert electricity into motion in motors, drones, robotics, vehicles and consumer
+  electronics — as an alternative to a supply chain concentrated in China. In 2025
+  it announced a $65 million Series A, a $620 million loan from the Pentagon''s Office
+  of Strategic Capital, and a $1.4 billion partnership with the U.S. government and
+  ReElement Technologies to build a vertically integrated domestic magnet supply chain,
+  including a nearly $1 billion, 1,000-job magnet factory in Benson, Johnston County,
+  North Carolina. Vulcan Elements is a physical-goods manufacturer: it publishes no
+  public API, developer portal, SDK or machine-readable specification.'
 url: https://raw.githubusercontent.com/api-evangelist/vulcan-elements/refs/heads/main/apis.yml
+image: https://vulcanelements.com/wp-content/uploads/2024/06/header-logo.svg
 x-type: company
 x-source: harvest:secondary-market
 x-tier: stub
@@ -12,6 +23,13 @@ created: '2026-08-05'
 modified: '2026-08-05'
 tags:
 - Company
+- Manufacturing
+- Rare Earth Magnets
+- Advanced Materials
+- Critical Minerals
+- Supply Chain
+- Defense
+- Hardware
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +37,39 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/vulcan-elements-domain-security.yml
 - type: Website
-  url: https://forgeglobal.com/vulcan-elements_stock/
+  url: https://vulcanelements.com/
+- type: Blog
+  url: https://vulcanelements.com/updates/
+- type: BlogRSS
+  url: https://vulcanelements.com/feed/
+- type: Careers
+  url: https://vulcanelements.com/careers/
+x-enrichment:
+  date: '2026-08-05'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: not-a-software-company
+  detail: >-
+    Vulcan Elements manufactures physical sintered NdFeB rare earth magnets, and its
+    entire web presence is a three-page WordPress marketing site (home, Benson site
+    expansion, careers) plus an updates feed — /api, /developers, /docs and every
+    /.well-known/ path return a hard 404, and no api., docs. or developer. subdomain
+    resolves at all.
+  evidence:
+  - url: https://vulcanelements.com/developers
+    status: 404
+  - url: https://vulcanelements.com/api
+    status: 404
+  - url: https://vulcanelements.com/openapi.json
+    status: 404
+  - url: https://vulcanelements.com/.well-known/agent-card.json
+    status: 404
+  - url: https://vulcanelements.com/page-sitemap.xml
+    status: 200
+  checked: '2026-08-05'
