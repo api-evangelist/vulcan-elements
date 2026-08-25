@@ -2,10 +2,17 @@
   "repo": "vulcan-elements",
   "feeds": [
     {
+      "source": "https://vulcanelements.com/feed/",
+      "feed_url": "https://vulcanelements.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
       "source": "https://vulcanelements.com/",
       "feed_url": "https://vulcanelements.com/feed/",
       "title": "",
-      "saved": 10,
+      "saved": 0,
       "method": "discovered"
     },
     {
@@ -17,5 +24,5 @@
     }
   ],
   "post_count": 10,
-  "fetched": "2026-08-15T12:11:08Z"
+  "fetched": "2026-08-22T20:20:02Z"
 }
