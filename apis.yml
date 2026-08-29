@@ -13,6 +13,17 @@ description: 'Vulcan Elements is a United States manufacturer of sintered perman
   North Carolina. Vulcan Elements is a physical-goods manufacturer: it publishes no
   public API, developer portal, SDK or machine-readable specification.'
 url: https://raw.githubusercontent.com/api-evangelist/vulcan-elements/refs/heads/main/apis.yml
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 image: https://vulcanelements.com/wp-content/uploads/2024/06/header-logo.svg
 x-type: company
 x-source: harvest:secondary-market
