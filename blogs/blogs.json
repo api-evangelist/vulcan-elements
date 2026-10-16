@@ -2,36 +2,23 @@
   "repo": "vulcan-elements",
   "feeds": [
     {
-      "source": "https://vulcanelements.com/",
-      "feed_url": "https://vulcanelements.com/blog/feed/",
-      "title": "",
-      "saved": 0,
-      "method": "discovered"
-    },
-    {
       "source": "https://vulcanelements.com/updates/",
-      "feed_url": "https://vulcanelements.com/feed/",
+      "feed_url": "https://vulcanelements.com/updates/",
       "title": "",
       "saved": 0,
-      "method": "discovered"
-    },
-    {
-      "source": "https://vulcanelements.com/blog/feed/",
-      "feed_url": "https://vulcanelements.com/blog/feed/",
-      "title": "",
-      "saved": 0,
-      "method": "feed"
+      "method": "none"
     },
     {
       "source": "https://vulcanelements.com/feed/",
-      "feed_url": "https://vulcanelements.com/feed/",
-      "title": "",
-      "saved": 0,
-      "method": "feed"
+      "error": "HTTPError"
+    },
+    {
+      "source": "https://vulcanelements.com/blog/feed/",
+      "error": "HTTPError"
     }
   ],
   "post_count": 12,
-  "fetched": "2026-10-03T12:30:02Z",
+  "fetched": "2026-10-10T13:15:00Z",
   "feed_nature": "vendor-blog",
   "feed_nature_basis": "path_blog",
   "feed_nature_note": "Whether these posts are the vendor publishing or its support community, decided on the URL path grammar of the saved posts -- not the hostname, which carries both on Khoros, and not author diversity, which flags large vendor blogs as forums. 'undetermined' means undetermined."
