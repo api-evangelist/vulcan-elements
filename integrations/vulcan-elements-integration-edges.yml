@@ -1,0 +1,50 @@
+edges:
+- partner_name: CHIPS for America (award recipients)
+  partner: null
+  partner_match: register
+  type: register
+  channel: regulator-register
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://www.nist.gov/chips/chips-program-office-awards
+  category: semiconductor funding award
+  contract_reference:
+    register: 'CHIPS for America award recipients (nist.gov/chips: Program Office + R&D Office awards)'
+    standard: CHIPS and Science Act
+    spec_file: null
+    role: chips-award-recipient
+    registered_name: Vulcan Elements Inc.
+    register_id: https://www.nist.gov/chips/chips-program-office-awards
+    matched_domain: vulcanelements.com
+    matched_by: domain
+    awards:
+    - office: CHIPS Program Office
+      site: Benson, NC
+      amount: $50 million in direct funding
+      status: awarded
+    signal_note: 'participation only: a federal funding award (manufacturing incentive or R&D), not conformance;
+      award count and amounts are context, never counted'
+    detected_by: sweep-semiconductor-consortia.py
+    detected: '2026-10-21'
+    identity: wikidata Q136335029 'Vulcan Elements' P856 https://vulcanelements.com/
+    identity_source: wikidata P856 (register gives names only; labelled provenance step)
+  detected_by: sweep-semiconductor-consortia.py
+  first_seen: '2026-10-21'
+generated: '2026-10-21'
+method: searched
+source:
+- https://riscv.org/members/
+- https://riscv.landscape2.io/data/full.json
+- https://www.opencompute.org/products
+- https://www.opencompute.org/wp-json/wp/v2/marketplace
+- https://www.opencompute.org/wp-json/wp/v2/companies
+- https://www.nist.gov/chips/chips-program-office-awards
+- https://www.nist.gov/chips/chips-rd-office-awards
+checked:
+- https://riscv.landscape2.io/data/full.json
+- https://riscv.org/members/
+- https://www.nist.gov/chips/chips-program-office-awards
+- https://www.nist.gov/chips/chips-rd-office-awards
+- https://www.opencompute.org/products
+- https://www.opencompute.org/wp-json/wp/v2/companies
+- https://www.opencompute.org/wp-json/wp/v2/marketplace
